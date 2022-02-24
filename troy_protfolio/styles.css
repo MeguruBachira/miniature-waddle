@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+    background-color: #42403F;
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-image: url(images/project2_images/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(images/project2_images/header.jpg);
+}
+
+main {
+    width: 578px;
+    height: 1600px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	/* Float the Main so it shows up next to the Aside. Reduce the width by 150px so they both line up with the header. */ 
+}
+
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatleft {
+	float: left;
+	
+}
+
+#container nav li {
+    display: block;
+    list-style-type: none;
+    width: 80px;
+    margin-right: 40px;
+    float: left;
+	font-family: neonoir,sans-serif;
+	font-size: 18pt
+}
+
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #646464;
+    clear: both;
+	/* Clear the float so the footer shows up in the right place again. */
+}
+
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+}
+
+h1 {
+    color: #6BE7FE;
+	font-family: politica,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+}
+
+#container { 
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin:auto
+
+}
+
+aside {
+    width: 150px;
+    height: 1640px;
+    background-color: #19DC0E;
+    float: left;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+p {
+	font-family: canada-type-gibson,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+nav {
+    width: 768px;
+    height: 50px;
+}
+
+nav a:link {
+    color: #69E9FE;
+	padding: 10px;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #5F2575;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #69E9FE;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+
+.sumbit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #6BE7FE;
+    font-size: 16px;
+    color: #FFFFFF;
+   
+}
+
+.sumbit_btn:hover  {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+	
+}
